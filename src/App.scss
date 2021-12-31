@@ -1,0 +1,10 @@
+@import "~@mdi/font/scss/materialdesignicons";
+
+.test {
+    color: purple;
+}
+
+.test::before{
+    font-family: "Material Design Icons";
+    content: '\F140'
+}
